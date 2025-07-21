@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tinysnapshot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tinysnapshot/tinysnapshot_{{ version }}.tar.gz
-  sha256: 37c4d2dd06825650e66c69a18ee018fd4ac7d2c4cff45b16a2e8f1897e61a364
+  sha256: 167bfeb4a9de0df04e74024ca152dadc7da506e4abf4efd0045fc2483d884da5
 
 build:
   number: 0
